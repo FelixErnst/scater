@@ -75,7 +75,7 @@ for (x in c("exprs", "norm_exprs", "stand_exprs", "fpkm")) {
         setReplaceMethod(x, c("SingleCellExperiment", "ANY"), SET_FUN(x))
     }
 }
-
+rm(x)
 
 ################################################################################
 ### bootstraps
