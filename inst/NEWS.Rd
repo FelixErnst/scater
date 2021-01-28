@@ -4,6 +4,8 @@
 \section{Changes in version 1.20.0, Bioconductor 3.13 Release}{
 \itemize{
     \item runMDS can use user-supplied function for calculating the distance matrix
+    \item runMDS returns eig and GOF results of cmdscale as attributes of the MDS result
+    \item runMDS optionally returns the calculated dist object as attribute of the MDS result
     \item Made the handling of center, scale, color and limits similar in 
     plotDots, plotHeatmap, and plotGroupedHeatmap
 }}
